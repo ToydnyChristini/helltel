@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAPP Hotel Booking</title>
+	
+<link rel="stylesheet" href="login_page_style.css">
+</head>
+
+
+<body>
+
+<div id="wrapper"> 
+	<div id="div_header">
+		CAPP hotel booking		
+		<input type="submit" id="login_button" value="LOGIN">	<input type="submit" id="register_button" value="REGISTER" onclick= "location='register_cus.html'">	
+	</div>
+	<div id="div_subhead">
+		<ul id="menu">
+			<li><a href="welcome_page.html">Home</a></li>
+			<li><a href="customer_page.html">Hotel </a></li>
+			<li><a href="booking_page.html">Booking </a></li>
+		</ul>	
+		<!--<ul id="menulog_reg">
+			<li><a href="login_cus.html">Login</a></li>
+			<li><a href="regis_cus.html">Register </a></li>
+			
+		</ul>	-->	
+	</div>
+	
+	<div id="div_main">
+		<div id="div_menu">
+			
+		</div>
+
+		<div id="div_content" class="form">
+			<!--%%%%% Main block %%%%-->
+			<!--Form -->
+			<h2 id='tag_line'>The  trip of your dream is just one click away !<br></br></h2>
+				<h2>Please log in<br></br></h2>
+			<form action="user.php" method="post">
+				
+				
+				
+				<!--<label>Title</label>
+				<select name="title">
+					<option value="Mr.">Mr.</option>
+					<option value="Mrs.">Mrs.</option>
+					<option value="Ms.">Ms.</option>
+				</select>-->
+				
+				<label>Email</label>
+				<input type="text" id="emaill" name="email">
+				
+			
+
+				<div class="Passandvisi">
+				<label>Password</label> 
+				<input type="password" id="myInput" name="passwd">	
+
+				<label>Show Password</label>
+				<input type="checkbox" id="boxvisi" onclick="myFunction();"> 
+				</div>
+				<br></br>
+				<br></br>
+				<br>
+				
+				<script>
+					function myFunction() {
+  					var x = document.getElementById("myInput");
+  					if (x.type === "password") {
+   						 x.type = "text";
+ 					 } else {
+    						x.type = "password";
+  						}
+					}
+				</script>
+				
+				
+				
+				
+				<div class="center">
+					<input type="submit"  value="login">			
+				</div>
+			</form>
+
+		</div> <!-- end div_content -->
+		<div id="div_menu2">
+			
+		</div>
+	</div> <!-- end div_main -->
+	
+	<div id="div_footer">  
+		
+	</div>
+	
+</div>
+</body>
+</html>
+
+

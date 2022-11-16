@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAPP Hotel Booking</title>
+	
+<link rel="stylesheet" href="register_cus_style.css">
+</head>
+
+
+<body>
+<div id="wrapper"> 
+	<div id="div_header">
+		CAPP hotel booking		
+		
+	</div>
+	<div id="div_subhead">
+		<ul id="menu">
+			<li><a href="welcome_page.html">Home</a></li>
+
+		</ul>	
+		<!--<ul id="menulog_reg">
+			<li><a href="login_cus.html">Login</a></li>
+			<li><a href="regis_cus.html">Register </a></li>
+			
+		</ul>	-->	
+	</div>
+	
+	<div id="div_main">
+		<div id="div_menu">
+			
+		</div>
+
+		<div id="div_content" class="form">
+			<!--%%%%% Main block %%%%-->
+			<!--Form -->
+			
+			<form action="users.php" method="post">
+				<h2>CREATE USER ACCOUNT<br></br></h2>
+				
+				<label>First name</label>
+				<input type="text" name="firstname">
+				
+				<label>Last name</label>
+				<input type="text" name="lastname">
+
+				<div class="BD_Gender">
+				<label>Birthdate</label>
+				<input type="date" name="DOB">
+				
+				<label>Gender</label>
+				<select name="gender">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+				</select>
+				</div>
+				
+				<label>Email</label>
+				<input type="text" id="emaill" name="email">
+				
+				
+				<label>Phone</label>
+				<input type="text" name="phonenum">
+
+				<label>CitizenID</label>
+				<input type="text" name="citizenID">
+				
+				
+				<label>User group</label>
+				<select name="usergroup">
+					<option value="Customer">Customer</option>
+					<option value="Hotel Owner">Hotel Owner</option>
+				</select>
+				
+				<div class="Passandvisi">
+				<label>Password</label> 
+				<input type="password" id="myInput" name="passwd">	
+
+				<label>Show Password</label>
+				<input type="checkbox" id="boxvisi" onclick="myFunction();"> 
+				</div>
+				
+				<script>
+					function myFunction() {
+  					var x = document.getElementById("myInput");
+  					if (x.type === "password") {
+   						 x.type = "text";
+ 					 } else {
+    						x.type = "password";
+  						}
+					}
+				</script>
+				
+				<br></br>
+				<br></br>
+				
+				
+				<div class="center">
+					<input type="submit" value="Submit" onclick= "location='users.php'"/>			
+				</div>
+			</form>
+
+		</div> <!-- end div_content -->
+		<div id="div_menu2">
+			
+		</div>
+	</div> <!-- end div_main -->
+	
+	<div id="div_footer">  
+		
+	</div>
+	
+</div>
+</body>
+</html>
+
+

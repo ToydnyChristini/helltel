@@ -1,0 +1,408 @@
+/*pantone #EB7E83 berry,#E1998A blush,#B88F89 Taupe,#52495A Plum
+,#557B86 Teal,#60ACC6 Turquoise,#E9DFEA violet light*/
+/*set 2 pantone #ADC3EC glacier,*/
+
+
+div#wrapper {
+	min-width:1200px;
+	
+	padding-top: 0.3em;
+	/*Set border to 1pixel solid line with black color*/
+	/*border: 1px solid black;
+	/*Set background color to #F2C063*/
+	
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+
+	/*Set margin to auto*/
+	margin: auto;
+	/*Set width to 60%*/
+	width: 70%;
+	
+	/*Use border-top-left-radius and border-top-right-radius to make round cornors. Set them to 10px*/
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+body {	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+	/*Set background color to #444444*/
+	background-color: #E5E5E5;
+}
+
+
+
+div#div_main{
+	position:relative;	
+}
+
+div#div_header{
+	/*Set font size to 2em, font family to sans-serif, font weight to 700, and font variant to small-caps */
+	font-size: 2em;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 700;
+	font-variant: small-caps;
+	padding:0.7em;
+    text-align: center;
+    background-image: url("image1.jpg");
+    height:110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    
+	
+	/*Set bottom border to 1 pixel, solid line, with color #BF491F*/
+	border-bottom: 1px solid #1f89fa;
+}
+
+div#div_subhead{
+	/*Set height to other values you like if you want to*/
+	
+	background-color:#6d91d3;
+	
+	/*Set bottom border to 1 pixel, solid line, with color #BF491F*/
+	border-bottom: 1px solid #1f89fa;
+}
+
+div#div_menu{
+	width: 20%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	/*Set top padding to 1em so we have more space at the top of the menu*/
+	padding-top: 1em;
+	border-right: 2px solid #5F98A9;
+    background-color: #ADC3EC;
+}
+
+div#div_content{	
+	/*Set background color to white*/
+	background-color: white;
+	margin-left:20%; 
+	padding:1em 0;
+	min-height: 400px;
+}
+
+#div_menu2{
+	width: 20%;
+	position:absolute;
+	top:0px;
+	left:958px;
+	bottom:0px;
+	/*Set top padding to 1em so we have more space at the top of the menu*/
+	padding-top: 1em;
+	border-left: 2px solid #5F98A9;
+    background-color: #ADC3EC;
+}
+
+
+div#div_footer{
+	border-top: 1px solid #1f89fa;
+	/*Set text alignment to center*/
+	text-align: center;
+	/*Set background color to #F27C38*/
+	background-color: #6d91d3;
+	/*Set padding of all sides to 1em*/
+	padding: 1em;
+}
+
+/*div#div_footer:before{
+    color:white;
+	content: "Theme adapted from";
+   
+}*/
+
+ul#menu{
+	/*Set list-style-type to none to remove the bullets*/
+	list-style-type: none;
+	
+	/*Set padding of all sides to 0 so that the menu contacts the left border	*/
+	padding: 0.6 em;
+	margin:0;
+	font-size:0.9 em;
+	/*border-top: 1px dotted white;*/
+}
+
+#menu li{
+	/*Set background color to #F27C38*/
+	background-color: #7698d6;
+	/*Center the text */
+	text-align: center;
+	display:inline;
+	border-right: 1px dashed white;
+}
+
+#menu a{
+	
+	/*Set padding of all sides to 0.4em to make larger menu items*/
+	padding: 0.6em;
+	
+	/*Set bottom border to dottred white 1pixel line.*/
+	border-bottom: 1px dottred white;
+	/*Set font weight to bold*/
+	font-weight: bold;
+}
+
+#menu a:link, #menu a:visited{
+	/*Set text-decoration to none to remove link underlines*/
+	text-decoration: none;
+	/*Set font color to black*/
+	color: black;
+	
+}
+
+#menu a:hover, #menu a:active{
+	background-color: #c8faff;
+	border-bottom: 1px solid #1f89fa;
+}
+
+ul#menulog_reg{
+	/*Set list-style-type to none to remove the bullets*/
+	list-style-type: none;
+	
+	/*Set padding of all sides to 0 so that the menu contacts the left border	*/
+	padding: 0.6 em;
+	margin:0;
+	font-size:0.9 em;
+	/*border-top: 1px dotted white;*/
+}
+
+#menulog_reg li{
+	/*Set background color to #F27C38*/
+	background-color: #7698d6;
+	/*Center the text */
+	text-align: center;
+	display:inline;
+	border-right: 1px dashed white;
+}
+
+#menulog_reg a{
+	
+	/*Set padding of all sides to 0.4em to make larger menu items*/
+	padding: 0.6em;
+	
+	/*Set bottom border to dottred white 1pixel line.*/
+	border-bottom: 1px dottred white;
+	/*Set font weight to bold*/
+	font-weight: bold;
+}
+
+#menulog_reg a:link, #menulog_reg a:visited{
+	/*Set text-decoration to none to remove link underlines*/
+	text-decoration: none;
+	/*Set font color to black*/
+	color: black;
+	
+}
+
+#menulog_reg a:hover, #menulog_reg a:active{
+	background-color: #c8faff;
+	border-bottom: 1px solid #1f89fa;
+}
+
+h2{
+	color: rgb(31, 31, 187);
+	font-weight:bold;
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	/*Set bottom border to 1pixel dotted line with color #E47F5A
+	border-bottom: 1px dotted rgb(31, 31, 187);*/
+	/*Set left padding to 1em so we have little indentation*/
+	padding-left: 1em;
+	margin-left:27%;
+}
+
+
+h4{
+	color: black;
+	font-weight:bold;
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	/*Set bottom border to 1pixel dotted line with color #E47F5A
+	border-bottom: 1px dotted rgb(31, 31, 187);*/
+	/*Set left padding to 1em so we have little indentation*/
+	padding-left: 1em;
+	margin-left:5%;
+}
+
+
+#tag_line {
+	color: rgb(31, 31, 187);
+	font-weight:bold;
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	/*Set bottom border to 1pixel dotted line with color #E47F5A
+	border-bottom: 1px dotted rgb(31, 31, 187);*/
+	/*Set left padding to 1em so we have little indentation*/
+	padding-left: 1em;
+	margin-left:19%;
+}
+
+.form label{
+	display: block;
+	
+	/*Align the text to the right*/
+	text-align: right;
+	/*Set text to bold
+	font-weight: bold;*/
+	/*Fix the width to 200px.*/
+	width: 60px;
+	height:33px;
+	/*Set float property to left so that the labels are on the left of text fields*/
+	float: left;
+	margin-right:10px;
+}
+
+.form input{
+	padding: 4px 2px;
+	margin: 2px 2px 10px 10px;
+	
+}
+
+.form input[type="text"], .form input[type="password"]{
+	display:block;
+	width:300px;
+	outline: 8px ridge black (170, 50, 220, .6);
+ 	outline-width: medium;
+ 	border-radius: 2rem;
+ 	height: 13px;	
+	 margin: 2px 2px 20px 10px;
+}
+
+#emaill{
+	margin: 2px px 10px 10px;
+}
+.form input[type="submit"]{
+	/*Set width to 150 pixels to have a big submit button*/
+	width: 150px;
+	outline: 2px ridge black (170, 50, 220, .6);
+	outline-width: medium;
+ 	border-radius: 2rem;
+	height:150 px;
+	position: relative;
+	margin: 2px 2px 20px 10px;
+	
+
+}
+#login_button{
+	margin-left:50%;
+}
+
+.form input[type="checkbox"]{
+	display:block;
+}
+.BD_Gender input{
+	float:left;
+	position:absolute;
+	margin: 2px 2px 10px 10px;
+}
+
+.form select{
+	padding: 4px 2px;
+	display:block;
+	margin: 2px 2px 10px 10px;
+}
+
+.center{
+	margin-left:39%;
+}
+
+#myInput{
+	width: 290px;
+	outline-width: medium;
+ 	border-radius: 2rem;
+	height:150 px;
+	position: relative;
+}
+
+#boxvisi{
+	margin-right:50%;
+}
+
+.Passandvisi{
+	display: inline;
+	padding-left: 10px;
+	float:left;
+	position:absolute;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .switch {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 34px;
+  }
+  
+  .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(230, 54, 54);
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #3ab22f;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #1f9a6d;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
+ 
